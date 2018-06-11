@@ -1,4 +1,10 @@
 <?php
+
+/* 
+Code based on original script from Philip Shipley
+See https://www.fillup.io/post/read-and-write-google-sheets-from-php/
+*/
+
 require __DIR__ . '/vendor/autoload.php';
 $response_url = $_POST["response_url"];
 $response = ["response_type"=>"in_channel", "text"=>"Checking writing log, please wait..."];
